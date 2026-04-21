@@ -1,0 +1,1 @@
+SELECT tipo2 FROM pokemon where ataque>1;

@@ -1,7 +1,9 @@
 SELECT
-    tipo as Tipo,
-    count(tipo) as 'Qtd de Pokemon'
+    tipo as tipo,
+    count(tipo) as 'qtd_pokemon'
 FROM 
     pokemon
 GROUP BY
+    tipo
+ORDER BY
     tipo

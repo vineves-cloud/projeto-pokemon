@@ -1,6 +1,6 @@
 SELECT
     tipo as 'Tipo',
-    CAST(AVG(ataque) as INTEGER) as 'Média de ataque'
+    ROUND(AVG(ataque),2) as 'media_ataque'
     
 FROM
     pokemon

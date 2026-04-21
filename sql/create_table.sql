@@ -5,5 +5,6 @@ CREATE TABLE pokemon (
     peso INTEGER,
     ataque INTEGER,
     defesa INTEGER,
-    tipo TEXT
+    tipo1 TEXT,
+    tipo2 TEXT
 );
